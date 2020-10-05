@@ -1,0 +1,8 @@
+<h2 mat-dialog-title>{{title}}</h2>
+
+<mat-dialog-content>{{message}}</mat-dialog-content>
+
+<mat-dialog-actions>
+    <button mat-button [mat-dialog-close]="false">no</button>
+    <button mat-button (click)="onDialogClose('Dialog is Closed') " >yes</button>
+</mat-dialog-actions>
