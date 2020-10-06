@@ -1,0 +1,9 @@
+.my-panel .mat-dialog-container {
+    overflow: hidden;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: aqua;
+}
+.my-backdrop{
+    background-color: burlywood;
+}

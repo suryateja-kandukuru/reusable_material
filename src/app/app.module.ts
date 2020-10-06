@@ -7,10 +7,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModuleModule } from "./material-module.module";
 import { ReuseableDialogComponent } from './reuse-material/components/dialog/reuseable-dialog.component';
 import { DialogService } from "../app/reuse-material/services/dialog.service";
+import { DialogOpenComponent } from './components/dialog-open/dialog-open.component';
 @NgModule({
   declarations: [
     AppComponent,
-    ReuseableDialogComponent
+    ReuseableDialogComponent,
+    DialogOpenComponent
   ],
   imports: [
     BrowserModule,
